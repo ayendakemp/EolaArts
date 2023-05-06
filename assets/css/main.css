@@ -3953,3 +3953,23 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+
+/* classes page*/
+
+#main .spotlights .classes {
+	width: 100%;
+	justify-content: center;
+}
+
+@media screen and (max-width: 736px) {
+
+	#main .spotlights .classes {
+		justify-content: left;
+	}
+
+	#main .spotlights .classes .major h3 {
+		white-space:normal !important;
+		width:80% !important;
+	}
+}
