@@ -3991,3 +3991,54 @@ input, select, textarea {
 	text-align: center;
 	list-style: none;
 }
+
+
+/* sign up */
+
+#signUp {
+	display: flex;
+	justify-content: center;
+	
+}
+
+#form {
+	width: 50%;
+}
+
+#signUpDates{
+	justify-content: center;
+	text-align: center;
+}
+
+
+.dates {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dates .half {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.half {
+	width: 50%;
+}
+
+.dates input {
+	color:#242943;
+}
+
+@media screen and (max-width: 736px) {
+	#form {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.dates{
+		flex-direction: column;
+		align-items: center;
+	}
+}
