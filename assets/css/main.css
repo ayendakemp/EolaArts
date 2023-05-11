@@ -4055,7 +4055,7 @@ input, select, textarea {
 
 .date {
 	width: 45% !important;
-	background-color:#242943;!important;
+	background-color:#242943 !important;
 	color: white !important;
 	height: 50px !important;
 
@@ -4073,6 +4073,11 @@ input, select, textarea {
 	.dates{
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.date {
+		width: 100% !important;
+		margin-top: 5px;
 	}
 }
 
