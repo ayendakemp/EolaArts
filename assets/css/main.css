@@ -4041,6 +4041,10 @@ input, select, textarea {
 	flex-wrap: wrap;
 }
 
+
+
+
+
 .half {
 	width: 50%;
 }
@@ -4048,6 +4052,29 @@ input, select, textarea {
 .dates input {
 	color:#242943;
 }
+
+@supports (-webkit-touch-callout: none) {
+	/* CSS specific to iOS devices */ 
+	input[type=date] {
+		text-align: left;
+		color:#242943;
+	  }
+	  
+	  input[type="date"]:before {
+		color: lightgrey;
+		content: attr(placeholder) !important;
+		margin-right: 0.5em;
+	  }
+	
+	  input[type="date"]:before {
+		color: lightgrey;
+		content: attr(placeholder) !important;
+		margin-right: 0.5em;
+	  }
+	  input[type="date"]:focus:before {
+		content: '' !important;
+	  }
+  }
 
 @media screen and (max-width: 736px) {
 	#form {
