@@ -4064,3 +4064,21 @@ input, select, textarea {
 		align-items: center;
 	}
 }
+
+/* about us */
+.headshotContainer {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+
+}
+
+
+.headshotImg {
+	border-radius: 40%;
+}
+
+.inner .center {
+	width: 100%;
+	text-align: center;
+}
