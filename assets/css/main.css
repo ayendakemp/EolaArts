@@ -4060,7 +4060,7 @@ input, select, textarea {
 }
 
 
-@supports (-webkit-touch-callout: none) {
+@media screen and (max-width: 736px) {
 	/* CSS specific to iOS devices */ 
 	input[type="date"]:not(.has-value):before{
 		color: #242943;
