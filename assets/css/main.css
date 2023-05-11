@@ -4063,7 +4063,7 @@ input, select, textarea {
 @supports (-webkit-touch-callout: none) {
 	/* CSS specific to iOS devices */ 
 	input[type="date"]:not(.has-value):before{
-		color: lightgray;
+		color: #242943;
 		content: attr(placeholder);
 	  }
   }
