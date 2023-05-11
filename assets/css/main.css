@@ -4011,10 +4011,7 @@ input, select, textarea {
 		 animation: fadein 2s forwards;
 }
 
-@keyframes fadein {
-	from { opacity: 0; }
-	to   { opacity: 1; }
-   }
+
 
 #form{
 	width: 50%;
@@ -4090,3 +4087,25 @@ iframe {
 	height: 80vh;
 	margin: auto;
 }
+
+
+/* animations */
+
+.circle {
+	border-radius: 50% !important;
+	margin: 10px;
+}
+
+.fadeIn {
+	opacity: 0;
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s forwards; /* Firefox < 16 */
+	 -ms-animation: fadein 2s forwards; /* Internet Explorer */
+	  -o-animation: fadein 2s forwards; /* Opera < 12.1 */
+		 animation: fadein 2s forwards;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+   }
