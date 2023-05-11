@@ -3992,6 +3992,10 @@ input, select, textarea {
 	list-style: none;
 }
 
+.module h2 {
+	font-size: 3em;
+}
+
 
 /* sign up */
 
