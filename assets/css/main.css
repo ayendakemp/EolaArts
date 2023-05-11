@@ -4073,6 +4073,7 @@ input, select, textarea {
 
 .headshotImg {
 	border-radius: 40%;
+	width: 20%;
 }
 
 .inner .center {
