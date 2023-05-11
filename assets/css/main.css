@@ -4098,7 +4098,12 @@ input, select, textarea {
 
 .headshotImg {
 	border-radius: 40%;
-	width: 20%;
+}
+
+@media screen and (max-width: 736px) {
+	.headshotImg {
+		width: 40%;
+	}
 }
 
 .inner .center {
