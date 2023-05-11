@@ -4082,3 +4082,10 @@ input, select, textarea {
 	width: 100%;
 	text-align: center;
 }
+
+/* reseach */
+
+iframe {
+	width: 90%;
+	height: 80vh;
+}
