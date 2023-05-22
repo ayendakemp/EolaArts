@@ -55,18 +55,18 @@
 								<form name='sign-up' method="post" data-netlify="true">
 									<div class="row gtr-uniform">
 										<div class="col-6 col-12-xsmall">
-											<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name*" required />
+											<input type="text" name="name" id="name" value="" placeholder="Name*" required />
 										</div>
 										<div class="col-6 col-12-xsmall">
-											<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email*" required />
+											<input type="email" name="email" id="email" value="" placeholder="Email*" required />
 										</div>
 										<!-- Break -->
 										<div class="col-12">
 											<select name="classSelect" id="ClassSelect" required>
 												<option value="">- Select a class/workshop -</option>
-												<option value="1">Class: Digital Venturing through Generative AI</option>
-												<option value="1">Class: What’s new about DAOS</option>
-												<option value="1">Class: Decentralized Cooperation and Coordination</option>
+												<option value="Class: Digital Venturing through Generative AI">Class: Digital Venturing through Generative AI</option>
+												<option value="Class: What’s new about DAOS">Class: What’s new about DAOS</option>
+												<option value="Class: Decentralized Cooperation and Coordination">Class: Decentralized Cooperation and Coordination</option>
 											</select>
 										</div>
 										<!-- Break -->
@@ -74,12 +74,12 @@
 											<p>Please provide some approximate dates that work for you. We will work to schedule you in the closest available offering: </p>
 											<div class="dates">
 												<div class="half">
-													<input type="date" placeholder="mm/dd/yyyy" onchange="this.className=(this.value!=''?'has-value':'')" required>
-													<input type="date" placeholder="mm/dd/yyyy" onchange="this.className=(this.value!=''?'has-value':'')">
+													<input type="date" id="date1" placeholder="mm/dd/yyyy" onchange="this.className=(this.value!=''?'has-value':'')" required>
+													<input type="date" id="date2" placeholder="mm/dd/yyyy" onchange="this.className=(this.value!=''?'has-value':'')">
 												</div>
 												<div class="half">
-													<input type="date" placeholder="mm/dd/yyyy" onchange="this.className=(this.value!=''?'has-value':'')">
-													<input type="date" placeholder="mm/dd/yyyy" onchange="this.className=(this.value!=''?'has-value':'')">
+													<input type="date" id="date3" placeholder="mm/dd/yyyy" onchange="this.className=(this.value!=''?'has-value':'')">
+													<input type="date" id="date4" placeholder="mm/dd/yyyy" onchange="this.className=(this.value!=''?'has-value':'')">
 												</div>
 												
 											</div>
@@ -87,7 +87,7 @@
 									
 											<!-- Break -->
 										<div class="col-12">
-											<textarea name="demo-message" id="demo-message" placeholder="Additional information or questions?" rows="6"></textarea>
+											<textarea name="demo-message" id="message" placeholder="Additional information or questions?" rows="6"></textarea>
 										</div>
 										<!-- Break -->
 										<div class="col-12">
