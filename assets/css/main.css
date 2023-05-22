@@ -3964,6 +3964,10 @@ input, select, textarea {
 	text-align: center !important;
 }
 
+.spaceLeft {
+	margin-left: 3.25em;
+}
+
 /* classes page*/
 
 #main .spotlights .classes {
