@@ -4072,6 +4072,11 @@ input, select, textarea {
 
 }
 
+.hidden { 
+/* to hide dates when workshop is selected */
+	display: none;
+}
+
 
 
 
@@ -4126,6 +4131,12 @@ input, select, textarea {
 	text-align: center;
 }
 
+.center {
+	width: 100%;
+	text-align: center;
+}
+
+
 /* reseach */
 
 iframe {
@@ -4155,3 +4166,5 @@ iframe {
 	from { opacity: 0; }
 	to   { opacity: 1; }
    }
+
+

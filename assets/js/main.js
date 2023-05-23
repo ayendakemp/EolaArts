@@ -333,3 +333,31 @@
 			});
 
 })(jQuery);
+
+
+
+const selectClass = document.getElementById("classSelect");
+const dates = document.querySelector('#signUpDates')
+
+selectClass.addEventListener('change',() =>{ 
+	let choice = selectClass.options[selectClass.selectedIndex].text.split(' ')[0];
+	let workshopInfo = document.getElementById("workshopInfo")
+	let classInfo = document.getElementById("classInfo")
+	if (choice === 'Workshop:'){
+		dates.classList.add('hidden')
+		workshopInfo.classList.remove("hidden")
+		classInfo.classList.add('hidden')
+
+	}
+
+	if (choice === 'Class:'){ //if already hidden by selection workshop and switched back to class
+		dates.classList.remove('hidden')
+		workshopInfo.classList.add("hidden")
+		classInfo.classList.remove('hidden')
+	}
+	console.log(choice)
+	
+})
+
+
+

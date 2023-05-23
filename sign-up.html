@@ -62,16 +62,21 @@
 										</div>
 										<!-- Break -->
 										<div class="col-12">
-											<select name="classSelect" id="ClassSelect" required>
+											<select name="classSelect" id="classSelect" required>
 												<option value="">- Select a class/workshop -</option>
 												<option value="Class: Digital Venturing through Generative AI">Class: Digital Venturing through Generative AI</option>
 												<option value="Class: What’s new about DAOS">Class: What’s new about DAOS</option>
 												<option value="Class: Decentralized Cooperation and Coordination">Class: Decentralized Cooperation and Coordination</option>
+												<option value="Workshop: Managing (with) Intelligent Algorithms: Summer Workshop">Workshop: Managing (with) Intelligent Algorithms: Summer Workshop</option>
+												<option value="Workshop: Fall 2023 Monthly Speaker Series: Artificial Intelligence in and Around Organizations">Workshop: Fall 2023 Monthly Speaker Series: Artificial Intelligence in and Around Organizations</option>
 											</select>
 										</div>
 										<!-- Break -->
-										<div id="signUpDates">
-											<p>Please provide some approximate dates that work for you. We will work to schedule you in the closest available offering: </p>
+										<div id="workshopInfo" class="hidden center">
+											<p>Sign up to receive the link to join our online workshop!</p>
+										</div>
+										<div id="signUpDates" class="hidden">
+											<p id="classInfo" class="hidden">Please provide some approximate dates that work for you. We will work to schedule you in the closest available offering: </p>
 											<div class="dates">
 												<div class="half">
 													<input type="date" name="date1" id="date1" placeholder="mm/dd/yyyy" onchange="this.className=(this.value!=''?'has-value':'')" required>
