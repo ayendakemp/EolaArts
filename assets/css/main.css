@@ -3400,6 +3400,7 @@ input, select, textarea {
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
+		text-align: center;
 	}
 
 		#banner:after {
