@@ -74,12 +74,12 @@
 											<p>Please provide some approximate dates that work for you. We will work to schedule you in the closest available offering: </p>
 											<div class="dates">
 												<div class="half">
-													<input type="date" name="date1" id="date1" placeholder="mm/dd/yyyy" >
-													<input type="date" name="date2" id="date2" placeholder="mm/dd/yyyy">
+													<input type="date" name="date1" id="date1" placeholder="mm/dd/yyyy" onchange="this.className=(this.value!=''?'has-value':'')" required>
+													<input type="date" name="date2" id="date2" placeholder="mm/dd/yyyy" onchange="this.className=(this.value!=''?'has-value':'')">
 												</div>
 												<div class="half">
-													<input type="date" name="date3" id="date3" placeholder="mm/dd/yyyy" >
-													<input type="date"  name="date4" id="date4" placeholder="mm/dd/yyyy">
+													<input type="date" name="date3" id="date3" placeholder="mm/dd/yyyy" onchange="this.className=(this.value!=''?'has-value':'')">
+													<input type="date" name="date4" id="date4" placeholder="mm/dd/yyyy" onchange="this.className=(this.value!=''?'has-value':'')">
 												</div>
 												
 											</div>
